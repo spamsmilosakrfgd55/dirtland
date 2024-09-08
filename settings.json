@@ -1,0 +1,59 @@
+{
+  "bot-account": {
+    "username": "DirtLand"
+  },
+
+  "server": {
+    "ip": "dirtlandcz.aternos.me",
+    "port": 44474,
+    "version": "1.9"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "123456"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": false,
+      "jump": true,
+      "rotate": false,
+
+      "hit": {
+        "enabled": false,
+        "delay": 20,
+        "attack-mobs": false
+      },
+
+      "circle-walk": {
+        "enabled": true,
+        "radius": 20
+      }
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 240,
+
+      "messages": [
+        "[Server] Hosting funguje",
+        "[Server] Hosting funguje"
+       
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 10000
+  }
+}
